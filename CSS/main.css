@@ -1,0 +1,53 @@
+body {
+	background-image: url(Storage/img/background2.jpg);
+	font-family:arial;
+}
+
+h1 {
+	text-align:center;
+}
+
+div.FG {
+	display:flex;
+	background-color:blue;
+	width:1000px;
+	padding:0px;
+	margin: auto;
+	margin-top:80px;
+	top:300px;
+}
+
+div.FG2 {
+	background-color:#D6D694;
+	border:black 1px solid;
+	width:696px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+div.sidebar {
+	background-color:#6B8431;
+	width: 300px;
+	margin :0;
+	float:right;
+	right:0px;
+	top:0px;
+	border:white 3px solid;
+
+}
+
+div.body {
+	border:black 3px solid;
+	width:690px;
+}
+
+nav.Fnav ul li {
+	background-color:#999;
+	border:black 1px solid;
+	list-style-type:none;
+	text-align:center;
+	position: fixed;
+	top:0px;
+	left:0px;
+	padding:3px;
+}
