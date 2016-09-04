@@ -51,3 +51,28 @@ nav.Fnav ul li {
 	left:0px;
 	padding:3px;
 }
+
+.sidebar ul{
+	list-style-type:none;
+	text-align:center;
+	padding:0;
+}
+
+.sidebar ul li a{
+	color:white;
+	text-decoration:none;
+}
+
+.HomePopUp{
+	background-color:#999;
+	position:absolute;
+	width:200px;
+}
+
+.HomePopUp ul{
+	list-style-type:none;
+}
+
+.HomePopUp ul li a{
+	text-decoration:none;
+}
