@@ -5,6 +5,11 @@ body {
 
 h1 {
 	text-align:center;
+	color:#5C6F27;
+}
+
+p {
+	color:#456832;
 }
 
 div.FG {
@@ -60,19 +65,5 @@ nav.Fnav ul li {
 
 .sidebar ul li a{
 	color:white;
-	text-decoration:none;
-}
-
-.HomePopUp{
-	background-color:#999;
-	position:absolute;
-	width:200px;
-}
-
-.HomePopUp ul{
-	list-style-type:none;
-}
-
-.HomePopUp ul li a{
 	text-decoration:none;
 }
