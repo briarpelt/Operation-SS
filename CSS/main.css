@@ -57,13 +57,31 @@ nav.Fnav ul li {
 	padding:3px;
 }
 
-.sidebar ul{
-	list-style-type:none;
+.sidebar ul.main1{
 	text-align:center;
+	list-style-type:none;
 	padding:0;
+	margin:0;
+	width:130px;
 }
 
-.sidebar ul li a{
+.sidebar ul.main1 li a{
+	color:white;
+	text-decoration:none;
+}
+
+.sidebar ul.main2{
+	text-align:center;
+	list-style-type:none;
+	padding:0px;
+	margin:0;
+	width:130px;
+	position:relative;
+	left:162px;
+	top:-250px;
+}
+
+.sidebar ul.main2 li a{
 	color:white;
 	text-decoration:none;
 }
