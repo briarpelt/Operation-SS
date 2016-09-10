@@ -57,31 +57,34 @@ nav.Fnav ul li {
 	padding:3px;
 }
 
-.sidebar ul.main1{
+.sidebar ul.main{
 	text-align:center;
 	list-style-type:none;
 	padding:0;
 	margin:0;
-	width:130px;
+	width:300px;
 }
 
-.sidebar ul.main1 li a{
+.sidebar ul.main li a{
 	color:white;
 	text-decoration:none;
 }
 
-.sidebar ul.main2{
-	text-align:center;
-	list-style-type:none;
-	padding:0px;
+
+.link-ext {
+	background-color:rgba(0, 0, 0, 0.5);
 	margin:0;
-	width:130px;
-	position:relative;
-	left:162px;
-	top:-250px;
+	padding:0;
+	width:300px;
+	text-decoration:none;
+	list-style-type:none;
+	display:none;
 }
 
-.sidebar ul.main2 li a{
-	color:white;
-	text-decoration:none;
+.link-ext ul{
+	text-align:left;
+}
+
+ul.link-ext li{
+	font-size:13px;
 }
